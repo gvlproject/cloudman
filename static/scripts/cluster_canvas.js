@@ -471,12 +471,12 @@ function refreshTip(){
         $('#cluster_view_tooltip').html(i_str);
     }else{
         if (use_autoscaling == true) {
-            i_str = '<br/>Autoscaling is <span style="color: green;">on</span>.<br/> Turn <a id="toggle_autoscaling_link" style="text-decoration: underline; cursor: pointer;">off</a>?'
-            i_str += '<p>Min nodes: <a class="editable">' + as_min + '</a>'
-            i_str += '<br/>Max nodes: <a class="editable">' + as_max + '</a>'
-            i_str += '<br/><span id="adjust_autoscaling_link" style="text-decoration: underline; cursor:pointer;">Adjust limits?</span></p>'
+            //i_str = '<br/>Autoscaling is <span style="color: green;">on</span>.<br/> Turn <a id="toggle_autoscaling_link" style="text-decoration: underline; cursor: pointer;">off</a>?'
+            //i_str += '<p>Min nodes: <a class="editable">' + as_min + '</a>'
+            //i_str += '<br/>Max nodes: <a class="editable">' + as_max + '</a>'
+            //i_str += '<br/><span id="adjust_autoscaling_link" style="text-decoration: underline; cursor:pointer;">Adjust limits?</span></p>'
         } else {
-            i_str = '<br/><br/>Autoscaling is <span style="color: red;">off</span>. Turn <a id="toggle_autoscaling_link" style="text-decoration: underline; cursor: pointer;">on</a>?'
+            //i_str = '<br/><br/>Autoscaling is <span style="color: red;">off</span>. Turn <a id="toggle_autoscaling_link" style="text-decoration: underline; cursor: pointer;">on</a>?'
     	}
     	$('#cluster_view_tooltip').html(i_str);
 

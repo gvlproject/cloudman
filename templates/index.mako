@@ -23,12 +23,12 @@ vertical-align: top;
             <li style='display:inline;width:150px;'>
                 <a id="stop-button" original-title="Shut down..." class="action-button left-button">Shut down...</a>
             </li>
-            <li style='display:inline;width:150px;'>
+            <!-- <li style='display:inline;width:150px;'>
                 <a class="middle-button action-button" original-title="Add worker nodes..." id="scale_up_button">Add worker nodes <img src="/cloud/static/images/downarrow.png"></a>
             </li>
             <li style='display:inline;width:150px;'>
                 <a class="middle-button action-button" original-title="Remove worker nodes..." id="scale_down_button">Remove worker nodes <img src="/cloud/static/images/downarrow.png"></a>
-            </li>
+            </li> -->
             <li style='display:inline;width:150px;'>
                 <a id='dns' href='' original-title="Access Galaxy" class="action-button right-button">Access Galaxy</a>
             </li>
