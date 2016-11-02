@@ -192,8 +192,10 @@ class OSInterface(EC2Interface):
         :return: If the volume was created successfully, return a boto instance
                  of the Volume object. Otherwise, return `None`.
         """
+        if zone == "QRIScloud":
+            volume_type="QRIScloud-rds"
         return super(OSInterface, self).create_volume(
-            size=size, zone=zone, snapshot=snapshot, volume_type=None, iops=None)
+            size=size, zone=zone, snapshot=snapshot, volume_type=volume_type, iops=None)
 
     def _launch_instances(self, num, instance_type, worker_ud, min_num=1):
         """
